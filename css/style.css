@@ -118,15 +118,15 @@ section{
     background: linear-gradient(45deg,blue,green);
     color:#fff;
 }
-    /*Exprince section*/
-    .exprince-section{
+    /*Experince section*/
+    .experince-section{
         background:url("../images/exp-bg.png");
         background-repeat: no-repeat;
         background-position: left ;
         height: 500px;
         padding-top: 0;
     }
-    .exprince-head{
+    .experince-head{
         text-align: center;
         font-size: 40px;
         margin-top: 0;
