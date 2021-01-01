@@ -7,7 +7,7 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
 }
-        /*Banner Section*/
+        /*Start Banner Section*/
 .banner-section{
     height: 500px;
     background: url("../images/top-banner.png");
@@ -65,4 +65,54 @@ body{
     max-width: 500px;
     padding-top: 30px;
 
+}
+        /*Start Middle Section*/
+.middle-scetion{
+    height: 500px;
+    padding: 20px 0;
+    background: url("../images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.middle-left{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+.middle-left img{
+    width: 100%;
+    max-width: 400px;
+    margin-left: 5%;
+
+}
+.middle-right{
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+}
+.middle-right h1{
+    font-size: 40px;
+    color: #333;
+    font-weight: 700;
+}
+.middle-right h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #222;
+}
+.middle-right p{
+    font-size: 15px;;
+    width: 80%;
+}
+.middle-right a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background:linear-gradient(45deg, red,yellowgreen);
+    padding: 1% 5%;
+    color:rgb(36, 88, 185);
+    font-weight: 600;
+}
+.middle-right a:hover{
+    background: linear-gradient(45deg,blue,green);
+    color:#fff;
 }
