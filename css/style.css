@@ -26,6 +26,7 @@ body{
 .right-site{
     width: 40%;
     float: left;
+    margin-left: 3%;
 
 }
 .right-site img{
