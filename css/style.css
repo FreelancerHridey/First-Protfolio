@@ -1,9 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700;900&display=swap');
 
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Yellowtail', cursive;
+    font-family: 'Poppins', sans-serif;
+
+}
+.banner-section{
+    height: 500px;
+    background: url("../images/top-banner.png");
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+.left-site{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 3%;
+}
+.left-site h1{
+    font-size: 50px;
+}
+.right-site{
+    width: 40%;
+    float: left;
+
+}
+.right-site img{
+    width: 100%;
 
 }
